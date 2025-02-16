@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="359dp"
+        android:layout_height="49dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Notification Settings"
+        android:textAlignment="center"
+        android:textColor="@color/Brown"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.638"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.043">
+
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/layoutBreakfast"
+        android:layout_width="279dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="19dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/layoutLunch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textViewBreakfast"
+            android:layout_width="161dp"
+            android:layout_height="41dp"
+            android:fontFamily="@font/aclonica"
+            android:text="Breakfast"
+            android:textColor="@color/Brown"
+            android:textSize="25sp" />
+
+        <Switch
+            android:id="@+id/switchBreakfast"
+            android:layout_width="86dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutLunch"
+        android:layout_width="277dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="27dp"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/layoutSnacks"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutBreakfast">
+
+        <TextView
+            android:id="@+id/textViewLunch"
+            android:layout_width="182dp"
+            android:layout_height="53dp"
+            android:fontFamily="@font/aclonica"
+            android:text="Lunch"
+            android:textColor="@color/Brown"
+            android:textSize="25sp" />
+
+        <Switch
+            android:id="@+id/switchLunch"
+            android:layout_width="63dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutSnacks"
+        android:layout_width="275dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="22dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/layoutDinner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutLunch">
+
+        <TextView
+            android:id="@+id/textViewSnacks"
+            android:layout_width="182dp"
+            android:layout_height="52dp"
+            android:fontFamily="@font/aclonica"
+            android:text="Snacks"
+            android:textColor="@color/Brown"
+            android:textSize="25sp" />
+
+        <Switch
+            android:id="@+id/switchSnacks"
+            android:layout_width="65dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutDinner"
+        android:layout_width="281dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="35dp"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/btnSave"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutSnacks">
+
+        <TextView
+            android:id="@+id/textViewDinner"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text="Dinner"
+            android:textColor="@color/Brown"
+            android:textSize="25sp" />
+
+        <Switch
+            android:id="@+id/switchDinner"
+            android:layout_width="60dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="115dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="275dp"
+        android:background="@drawable/btn"
+        android:fontFamily="@font/aclonica"
+        android:text="Save"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutDinner" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

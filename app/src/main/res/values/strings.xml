@@ -1,0 +1,50 @@
+<resources>
+    <string name="apname">Navigation Drawer</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <string name="app_name">VitMessApp</string>
+    <string name="login">Login</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="already_have_an_account_sign_up">Already have an account? Login</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="create_new_account_login">Create New Account! SignUp</string>
+    <string name="signup">Signup</string>
+    <string name="welcome_to_vit_hostel_mess">WELCOME TO VIT HOSTEL MESS</string>
+    <string name="eat_well_appreciate_every_bite_don_t_waste_food_it_s_a_privilege">Eat well, appreciate every bite, don\'t waste food, it\'s a privilege.</string>
+    <string name="hi_sowmya">Hi Sowmya.....</string>
+    <string name="non_veg">Non Veg</string>
+    <string name="non_veg_menu">Non Veg Menu</string>
+    <string name="special">Special</string>
+    <string name="veg">Veg</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="snacks">Snacks</string>
+    <string name="dinner">Dinner</string>
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="_12_00_am___2_00_am_string">12:00 AM - 2.00 AM</string>
+    <string name="lunch_string">LUNCH </string>
+    <string name="_7_30_pm___9_30_pm_string">7:30 PM - 9.30 PM</string>
+    <string name="non_veg_menu_ek3_string">NON VEG MENU</string>
+    <string name="m_string">M</string>
+    <string name="t_string">T</string>
+    <string name="w_string">W</string>
+    <string name="th_string">Th</string>
+    <string name="f_string">F</string>
+    <string name="breakfast_string">BREAKFAST </string>
+    <string name="snacks_string">SNACKS</string>
+    <string name="dinner_string">DINNER</string>
+    <string name="_7_30_am___9_00_am_string">7:30 AM - 9.00 AM</string>
+    <string name="_4_30_pm___6_00_pm_string">4:30 PM - 6.00 PM</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string-array name="selection_array">
+        <item>Selection</item>
+        <!-- Add other items as needed -->
+    </string-array>
+
+
+</resources>

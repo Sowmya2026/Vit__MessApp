@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentActivity">
+
+    <ImageView
+        android:layout_width="73dp"
+        android:layout_height="73dp"
+        android:src="@drawable/vitlogo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="231dp"
+        android:layout_height="45dp"
+        android:fontFamily="@font/aclonica"
+        android:text="VIT HMESS"
+        android:textColor="@color/Brown"
+        android:textSize="37sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.944"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.058" />
+
+    <Button
+        android:id="@+id/mondayselection"
+        android:layout_width="330dp"
+        android:layout_height="56dp"
+        android:fontFamily="@font/aclonica"
+        android:background="@drawable/round_background"
+        android:text="Monday Menu Selection"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.189">
+
+    </Button>
+
+    <Button
+        android:layout_width="330dp"
+        android:layout_height="56dp"
+        android:fontFamily="@font/aclonica"
+        android:id="@+id/sundayselection"
+        android:background="@drawable/round_background"
+        android:text="Sunday Menu Selection"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.952">
+
+    </Button>
+
+    <Button
+        android:id="@+id/tuesdayselection"
+        android:layout_width="330dp"
+        android:fontFamily="@font/aclonica"
+        android:layout_height="56dp"
+        android:background="@drawable/round_background"
+        android:text="Tuesday Menu Selection"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.314">
+
+    </Button>
+
+    <Button
+        android:id="@+id/wednesdayselection"
+        android:layout_width="340dp"
+        android:fontFamily="@font/aclonica"
+        android:layout_height="56dp"
+        android:background="@drawable/round_background"
+        android:text="Wednesday Menu Selection"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.444">
+
+    </Button>
+
+    <Button
+        android:id="@+id/thursdayselection"
+        android:layout_width="330dp"
+        android:layout_height="56dp"
+        android:background="@drawable/round_background"
+        android:text="Thursday Menu Selection"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:fontFamily="@font/aclonica"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.574">
+
+    </Button>
+
+    <Button
+        android:id="@+id/fridayselection"
+        android:layout_width="330dp"
+        android:fontFamily="@font/aclonica"
+        android:layout_height="56dp"
+        android:background="@drawable/round_background"
+        android:text="Friday Menu Selection"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.702">
+
+    </Button>
+
+    <Button
+        android:id="@+id/saturdayselection"
+        android:layout_width="330dp"
+        android:fontFamily="@font/aclonica"
+        android:layout_height="56dp"
+        android:background="@drawable/round_background"
+        android:text="Saturday Menu Selection"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.822">
+
+    </Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

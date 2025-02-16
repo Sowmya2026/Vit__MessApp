@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_signup"
+            android:icon="@drawable/baseline_group_add_24"
+            android:title="SignUp" />
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/baseline_group_24"
+            android:title="Login"/>
+        <item
+            android:id="@+id/nav_alarm"
+            android:icon="@drawable/alarm"
+            android:title="Alarm Setup" />
+        <item
+            android:id="@+id/nav_selection"
+            android:icon="@drawable/mess"
+            android:title="Menu Selection" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/baseline_feedback_24"
+            android:title="Feedback"/>
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/baseline_settings_24"
+            android:title="Settings"/>
+
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/baseline_contact_phone_24"
+            android:title="Contact Us"/>
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/baseline_group_remove_24"
+            android:title="Logout"/>
+
+    </group>
+
+</menu>

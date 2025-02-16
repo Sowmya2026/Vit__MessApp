@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".Tuesdaymenu">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/tuesmenulist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aclonica"
+                android:text="Tuesday MenuList"
+                android:textAlignment="center"
+                android:textColor="@color/Brown"
+                android:textSize="30sp"
+                android:layout_margin="16dp"/>
+
+            <!-- Breakfast Section -->
+            <LinearLayout
+                android:id="@+id/breakfastLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <!-- Breakfast Header -->
+                <TextView
+                    android:id="@+id/breakfastHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/aclonica"
+                    android:text="@string/breakfast"
+                    android:textColor="@color/Brown"
+                    android:textSize="25sp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <!-- EditText for Breakfast List -->
+                <EditText
+                    android:id="@+id/Blist"
+                    android:layout_width="313dp"
+                    android:layout_height="63dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/custom_edittext"
+                    android:ems="10"
+                    android:hint="Add Breakfast List"
+                    android:inputType="text"
+                    android:textAlignment="center"
+                    android:textColor="@color/Brown" />
+
+                <!-- Button to Add Breakfast Menu -->
+                <Button
+                    android:id="@+id/addmenu"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/btn"
+                    android:backgroundTint="@color/Brown"
+                    android:fontFamily="@font/aclonica"
+                    android:text="Add Menu"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <!-- Lunch Section -->
+
+            <!-- Snacks Section -->
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Lunch Header -->
+                <TextView
+                    android:id="@+id/lunchHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:fontFamily="@font/aclonica"
+                    android:text="@string/lunch"
+                    android:textColor="@color/Brown"
+                    android:textSize="25sp" />
+
+                <!-- EditText for Lunch List -->
+                <EditText
+                    android:id="@+id/Llist"
+                    android:layout_width="311dp"
+                    android:layout_height="61dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/custom_edittext"
+                    android:ems="10"
+                    android:hint="Add Lunch List"
+                    android:inputType="text"
+                    android:textAlignment="center"
+                    android:textColor="@color/Brown" />
+
+                <!-- Button to Add Lunch Menu -->
+                <Button
+                    android:id="@+id/addmenu1"
+                    android:layout_width="136dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/btn"
+                    android:backgroundTint="@color/Brown"
+                    android:fontFamily="@font/aclonica"
+                    android:text="Add Menu"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <!-- Snacks Section (continued) -->
+
+            <!-- Snacks Header -->
+            <TextView
+                android:id="@+id/snacksHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aclonica"
+                android:text="@string/snacks"
+                android:textColor="@color/Brown"
+                android:textSize="25sp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"/>
+
+            <!-- EditText for Snacks List -->
+            <EditText
+                android:id="@+id/Slist"
+                android:layout_width="315dp"
+                android:layout_height="62dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/custom_edittext"
+                android:ems="10"
+                android:hint="Add Snacks List"
+                android:inputType="text"
+                android:textAlignment="center"
+                android:textColor="@color/Brown" />
+
+            <!-- Button to Add Snacks Menu -->
+            <Button
+                android:id="@+id/addmenu2"
+                android:layout_width="134dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/btn"
+                android:backgroundTint="@color/Brown"
+                android:fontFamily="@font/aclonica"
+                android:text="Add Menu"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Dinner Section -->
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Dinner Header -->
+                <TextView
+                    android:id="@+id/dinnerHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/aclonica"
+                    android:text="@string/dinner"
+                    android:textColor="@color/Brown"
+                    android:textSize="25sp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <!-- EditText for Dinner List -->
+                <EditText
+                    android:id="@+id/Dlist"
+                    android:layout_width="315dp"
+                    android:layout_height="58dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/custom_edittext"
+                    android:ems="10"
+                    android:hint="Add Dinner List"
+                    android:inputType="text"
+                    android:textAlignment="center"
+                    android:textColor="@color/Brown" />
+
+                <!-- Button to Add Dinner Menu -->
+                <Button
+                    android:id="@+id/addmenu3"
+                    android:layout_width="129dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/btn"
+                    android:backgroundTint="@color/Brown"
+                    android:fontFamily="@font/aclonica"
+                    android:text="Add Menu"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

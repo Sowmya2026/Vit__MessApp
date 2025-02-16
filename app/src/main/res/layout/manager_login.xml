@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:crad_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:gravity="center"
+    tools:context=".ManagerLoginActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="358dp"
+        android:layout_margin="30dp"
+        android:background="@drawable/gap_broder"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="282dp"
+            android:layout_height="463dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="24dp"
+            tools:layout_editor_absoluteX="42dp"
+            tools:layout_editor_absoluteY="174dp">
+
+
+            <TextView
+                android:id="@+id/Lognn"
+                android:layout_width="282dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aclonica"
+                android:text="Manager Login"
+                android:textAlignment="center"
+                android:textColor="@color/Brown"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/email1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/gap_broder"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/aclonica"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:textColor="@color/black">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/password1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/gap_broder"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/aclonica"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:textColor="@color/black">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/text12"
+                android:layout_width="280dp"
+                android:layout_height="49dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:text="@string/forgot_password"
+                android:textColor="@color/Brown"
+                android:textSize="17dp"
+                android:textStyle="normal" />
+
+            <ProgressBar
+                android:id="@+id/progressBar1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="4dp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/lognnnbutton"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/btn"
+                android:backgroundTint="@color/Brown"
+                android:fontFamily="@font/aclonica"
+                android:text="@string/login"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:cornerRadius="20dp">
+
+            </Button>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</LinearLayout>

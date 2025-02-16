@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tab_item_width">120dp</dimen>
+    <!-- Inside res/values/dimens.xml -->
+    <dimen name="indicator_size">28dp</dimen>
+
+</resources>

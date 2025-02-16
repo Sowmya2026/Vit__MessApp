@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/monmenuselection"
+            android:layout_width="314dp"
+            android:layout_height="84dp"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/aclonica"
+            android:text="Monday Menu Selection"
+            android:textColor="@color/Brown"
+            android:textSize="30sp">
+
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/aclonica"
+            android:text="@string/breakfast"
+            android:textAlignment="center"
+            android:textColor="@color/Brown"
+            android:textSize="22dp">
+
+        </TextView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewBreakfast"
+            android:layout_width="372dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="21dp" />
+
+        <Button
+            android:id="@+id/buttonBreakfast"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="21dp"
+            android:layout_width="280dp"
+            android:background="@drawable/btn"
+            android:textColor="@color/white"
+            android:fontFamily="@font/aclonica"
+            android:text="Save Breakfast Selection"
+            />
+
+        <TextView
+            android:layout_width="424dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/aclonica"
+            android:text="@string/lunch"
+            android:textAlignment="center"
+            android:textColor="@color/Brown"
+            android:textSize="22dp">
+
+        </TextView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewLunch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="21dp"/>
+
+        <Button
+            android:id="@+id/buttonLunch"
+            android:layout_width="280dp"
+            android:background="@drawable/btn"
+            android:fontFamily="@font/aclonica"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:text="Save Lunch Selection" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/aclonica"
+            android:text="@string/snacks"
+            android:textAlignment="center"
+            android:textColor="@color/Brown"
+            android:textSize="22dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewSnacks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"/>
+
+        <Button
+            android:id="@+id/buttonSnacks"
+
+            android:layout_width="280dp"
+            android:background="@drawable/btn"
+            android:textColor="@color/white"
+            android:fontFamily="@font/aclonica"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:text="Save Snacks Selection" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:textColor="@color/Brown"
+            android:textAlignment="center"
+            android:text="@string/dinner"
+            android:textSize="22dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewDinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"/>
+
+        <Button
+            android:id="@+id/buttonDinner"
+            android:layout_width="280dp"
+            android:background="@drawable/btn"
+            android:textColor="@color/white"
+            android:fontFamily="@font/aclonica"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:text="Save Dinner Selection"
+            android:layout_marginBottom="28dp"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+</ScrollView>
