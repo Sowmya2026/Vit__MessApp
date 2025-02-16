@@ -75,9 +75,25 @@ VIT-Hostel-Mess-App/
 │   │   │   ├── AndroidManifest.xml (Permissions & Activity Declaration)
 │   ├── build.gradle (App-level build config)
 │── firebase/ (Firebase setup files)
+│── screenshots/ (App & Firebase Screenshots)
 │── README.md
 │── LICENSE
 ```
+
+---
+
+## 📸 Screenshots
+### **App UI Screenshots**
+![Welcome Page](screenshots/welcome_page.png)
+![Signup Page](screenshots/signup_page.png)
+![Login Page](screenshots/login_page.png)
+![Home Page](screenshots/home_page.png)
+![Non-Veg Menu](screenshots/nonveg_menu.png)
+![Manager Dashboard](screenshots/manager_dashboard.png)
+
+### **Firebase Screenshots**
+![Firebase Database](screenshots/firebase_database.png)
+![Firebase Authentication](screenshots/firebase_auth.png)
 
 ---
 
